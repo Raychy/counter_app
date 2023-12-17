@@ -43,7 +43,7 @@ class WeatherModel {
       'currentHumidity': currentHumidity,
       'weatherList': weatherList,
     };
-  }
+  } 
 
   factory WeatherModel.fromMap(Map<String, dynamic> map) {
     final currentWeatherData = map['list'][0];
